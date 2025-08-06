@@ -6,23 +6,23 @@ Support various languages.
 
 ## How to start
 
-download VScode
-download Python
-download git
+install VScode
+install Python
+install git
 
-download homebrew
+install homebrew
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew --version
 ```
 
-download uv
+install uv
 ```bash
 brew install uv
 uv --version
 ```
 
-# download 
+install dependencies
 ```bash
 uv pip install pytesseract pillow
 brew install tesseract
