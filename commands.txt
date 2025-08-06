@@ -1,0 +1,16 @@
+
+download VScode
+download Python
+
+# download homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew --version
+
+# download uv
+brew install uv
+uv --version
+
+# download 
+uv pip install pytesseract pillow
+brew install tesseract
+brew install tesseract-lang
